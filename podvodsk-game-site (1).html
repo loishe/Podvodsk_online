@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podvodsk - Play Free Online Game | Adventure Gaming Experience</title>
+    <meta name="description" content="Experience Podvodsk, an immersive online adventure game. Play for free in your browser with stunning graphics and engaging gameplay.">
+    <meta name="keywords" content="Podvodsk, online game, free game, browser game, adventure game, gaming">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.com/">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Podvodsk - Play Free Online Game">
+    <meta property="og:description" content="Experience Podvodsk, an immersive online adventure game. Play for free in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Podvodsk - Play Free Online Game">
+    <meta name="twitter:description" content="Experience Podvodsk, an immersive online adventure game. Play for free in your browser.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apple-inspired color palette and custom styles */
+        :root {
+            --apple-blue: #007AFF;
+            --apple-gray: #8E8E93;
+            --apple-light-gray: #F2F2F7;
+            --apple-dark: #1C1C1E;
+            --apple-green: #34C759;
+            --apple-purple: #AF52DE;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        .game-container {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--apple-blue), var(--apple-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--apple-blue), #0056CC);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .game-container {
+                margin: 1rem;
+                border-radius: 15px;
+            }
+        }
+        
+        /* Bubble animation for game placeholder */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .bubble {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="glass-effect sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold gradient-text">Podvodsk</h1>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#game" class="text-gray-700 hover:text-blue-600 transition-colors">Play Game</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors">Features</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">Podvodsk</h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Dive into an immersive underwater adventure where mystery meets exploration in this captivating online gaming experience.
+            </p>
+            <a href="#game" class="btn-primary text-white px-8 py-4 rounded-full text-lg font-semibold inline-block">
+                Start Playing Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Play Podvodsk Online</h2>
+            <div class="game-container bg-white mx-auto" style="max-width: 900px;">
+                <iframe 
+                    src="https://html-classic.itch.zone/html/13642939/index.html" 
+                    width="100%" 
+                    height="600" 
+                    frameborder="0" 
+                    allowfullscreen
+                    allow="autoplay; fullscreen; microphone; camera"
+                    class="w-full h-96 md:h-[600px] rounded-lg"
+                    title="Podvodsk Online Game - Play Now"
+                    loading="lazy">
+                </iframe>
+                
+                <!-- Game Controls Info -->
+                <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <div class="flex items-center justify-between flex-wrap gap-4">
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                            <span class="text-blue-800 font-medium text-sm">Game loaded successfully!</span>
+                        </div>
+                        <div class="flex items-center space-x-4 text-sm text-blue-600">
+                            <span>🎮 Use keyboard controls</span>
+                            <span>🖱️ Click to interact</span>
+                            <span>⚡ Optimized for all devices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 bg-white bg-opacity-60">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">About Podvodsk</h2>
+            <div class="prose prose-lg mx-auto text-gray-700">
+                <p class="text-lg leading-relaxed mb-6">
+                    Podvodsk is an innovative online adventure game that takes players on an extraordinary journey through mysterious underwater realms. Set in a beautifully crafted aquatic world, this browser-based game combines stunning visual effects with engaging gameplay mechanics that keep players coming back for more.
+                </p>
+                <p class="text-lg leading-relaxed mb-6">
+                    The game features a unique blend of exploration, puzzle-solving, and strategic thinking as players navigate through various underwater environments. From ancient sunken cities to vibrant coral reefs, each level presents new challenges and discoveries that push the boundaries of traditional online gaming.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Built with cutting-edge web technologies, Podvodsk delivers a seamless gaming experience across all devices. Whether you're playing on a desktop computer or mobile device, the game adapts perfectly to provide optimal performance and visual quality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Game Features</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Immersive Graphics</h3>
+                    <p class="text-gray-600 text-center">Experience stunning underwater visuals with realistic lighting effects and detailed environments that bring the ocean to life.</p>
+                </div>
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.832 18.477 19.246 18 17.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Rich Storyline</h3>
+                    <p class="text-gray-600 text-center">Uncover ancient mysteries and explore captivating narratives that unfold as you progress through different underwater territories.</p>
+                </div>
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Cross-Platform</h3>
+                    <p class="text-gray-600 text-center">Play seamlessly on any device - desktop, tablet, or mobile. The game automatically adapts to your screen size for optimal experience.</p>
+                </div>
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Fast Loading</h3>
+                    <p class="text-gray-600 text-center">Optimized for quick loading times and smooth gameplay, ensuring you can jump into the action without delays.</p>
+                </div>
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Free to Play</h3>
+                    <p class="text-gray-600 text-center">Enjoy the complete gaming experience at no cost. No downloads, no installations - just pure underwater adventure in your browser.</p>
+                </div>
+                
+                <div class="feature-card p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Achievement System</h3>
+                    <p class="text-gray-600 text-center">Unlock achievements and track your progress as you master different challenges and discover hidden secrets throughout the game.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 px-4 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Ready to Explore Podvodsk?</h2>
+            <p class="text-lg text-gray-600 mb-8">
+                Join thousands of players already exploring the depths of this incredible underwater world. Start your adventure today!
+            </p>
+            <a href="#game" class="btn-primary text-white px-8 py-4 rounded-full text-lg font-semibold inline-block">
+                Play Now - It's Free!
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4 gradient-text">Podvodsk</h3>
+            <p class="text-gray-300 mb-6">The ultimate underwater adventure gaming experience</p>
+            <div class="border-t border-gray-700 pt-6">
+                <p class="text-gray-400 text-sm">
+                    © 2025 Podvodsk. All rights reserved. | 
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a> | 
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Enhanced iframe loading with better error handling
+        const gameIframe = document.querySelector('iframe[title*="Podvodsk"]');
+        if (gameIframe) {
+            // Add loading indicator
+            const loadingIndicator = document.createElement('div');
+            loadingIndicator.className = 'absolute inset-0 bg-blue-500 bg-opacity-10 flex items-center justify-center rounded-lg';
+            loadingIndicator.innerHTML = `
+                <div class="text-center">
+                    <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+                    <p class="text-blue-600 font-medium">Loading Podvodsk...</p>
+                </div>
+            `;
+            
+            // Add loading state
+            gameIframe.parentElement.style.position = 'relative';
+            gameIframe.parentElement.appendChild(loadingIndicator);
+            gameIframe.style.opacity = '0';
+            
+            // Handle successful load
+            gameIframe.addEventListener('load', function() {
+                setTimeout(() => {
+                    this.style.opacity = '1';
+                    this.style.transition = 'opacity 0.5s ease';
+                    loadingIndicator.remove();
+                }, 500);
+            });
+            
+            // Handle load errors
+            gameIframe.addEventListener('error', function() {
+                loadingIndicator.innerHTML = `
+                    <div class="text-center p-6">
+                        <svg class="w-16 h-16 text-red-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                        </svg>
+                        <h3 class="font-bold text-red-600 mb-2">Game Loading Error</h3>
+                        <p class="text-red-500 text-sm mb-4">Unable to load the game. Please try refreshing the page.</p>
+                        <button onclick="location.reload()" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors">
+                            Refresh Page
+                        </button>
+                    </div>
+                `;
+            });
+        }
+
+        // Add fullscreen toggle functionality
+        function toggleFullscreen() {
+            const iframe = document.querySelector('iframe[title*="Podvodsk"]');
+            if (iframe) {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
